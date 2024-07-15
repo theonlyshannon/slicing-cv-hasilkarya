@@ -1,0 +1,2313 @@
+.frame-child,
+.frame-item {
+  position: absolute;
+  left: 0;
+  border-radius: 50%;
+}
+.frame-child {
+  top: 0;
+  background-color: rgba(15, 124, 131, 0.62);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.frame-item {
+  top: 4px;
+  background-color: #fff;
+  width: 31px;
+  height: 31px;
+  z-index: 2;
+}
+.ellipse-parent {
+  position: absolute;
+  top: 18px;
+  left: 27px;
+  width: 43px;
+  height: 43px;
+}
+.frame-inner {
+  height: 31px;
+  width: 31px;
+  position: relative;
+}
+.cv-hasil-karya {
+  position: relative;
+  text-shadow: 3.5px 0 0#fff, 0 3.5px 0#fff, -3.5px 0 0#fff, 0-3.5px 0#fff;
+  white-space: nowrap;
+  z-index: 3;
+}
+.cv-hasil-karya-wrapper,
+.vector-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cv-hasil-karya-wrapper {
+  flex-direction: column;
+  padding: 14px 0 0;
+}
+.vector-parent {
+  position: absolute;
+  top: 19px;
+  left: 16px;
+  flex-direction: row;
+  gap: 5px;
+}
+.home1 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 800;
+  color: inherit;
+  display: inline-block;
+  min-width: 47px;
+}
+.home-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 16px;
+  color: #135155;
+}
+.tentang-kami {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 105px;
+  white-space: nowrap;
+}
+.home-nav1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 16px;
+}
+.produk {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 55px;
+}
+.home-nav2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 16px;
+}
+.layanan {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 64px;
+  white-space: nowrap;
+}
+.frame-icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.home-nav-parent,
+.service-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.service-nav {
+  padding: 12px 16px;
+}
+.home-nav-parent {
+  max-width: 100%;
+}
+.masuk {
+  text-decoration: none;
+  height: 23px;
+  width: 53px;
+  position: relative;
+  font-weight: 800;
+  color: inherit;
+  display: inline-block;
+  min-width: 53px;
+}
+.frame-group,
+.masuk-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.masuk-wrapper {
+  background-color: #135155;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 16px;
+  color: #fff;
+  font-family: "Jeko DEMO";
+}
+.frame-group {
+  position: absolute;
+  top: 16px;
+  left: 434px;
+  width: 828px;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 100%;
+  color: #4a606b;
+  font-family: Inter;
+}
+.frame-parent {
+  height: 79px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.home-inner {
+  margin-right: -1px;
+  align-self: stretch;
+  box-shadow: 0 25px 25px rgba(35, 35, 35, 0.04);
+  backdrop-filter: blur(56px);
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 24px 80px;
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: center;
+  font-size: 16px;
+  color: #0f7c83;
+  font-family: "Times New Roman";
+}
+.frame-icon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.jasa-konstruksi {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: calc(100% - 34px);
+}
+.hero-slogan-container {
+  width: 431px;
+  border-radius: 100px;
+  background-color: rgba(250, 187, 5, 0.04);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 26px;
+  box-sizing: border-box;
+  gap: 10px;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.solusi-konstruksi-untuk {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 100px;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  min-height: 300px;
+}
+.dengan-inovasi-terbaru {
+  position: relative;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #4a606b;
+}
+.solusi-konstruksi-untuk-masa-d-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.lihat-proyek-kami {
+  width: 142px;
+  position: relative;
+  text-decoration: underline;
+  font-weight: 800;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frame-icon2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.project-button-container {
+  width: 161px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 4px;
+  text-align: center;
+  font-size: 16px;
+  color: #0f7c83;
+}
+.hero-description-container,
+.hero-title-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hero-description-container {
+  gap: 24px;
+  text-align: left;
+  font-size: 80px;
+  color: #171717;
+}
+.hero-title-container {
+  padding: 0 49px 0 0;
+  box-sizing: border-box;
+  gap: 17px;
+  max-width: 100%;
+}
+.subtract-icon {
+  width: 337px;
+  position: relative;
+  border-radius: 8px;
+  max-height: 100%;
+  max-width: 100%;
+}
+.kualitas-terbaik {
+  color: #0f7c83;
+}
+.keandalan-dan-kualitas-container {
+  margin: 0;
+  width: 412px;
+  height: 36px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 106%;
+  flex-shrink: 0;
+}
+.kami-dipercaya-oleh {
+  width: 371px;
+  position: relative;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #4a606b;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.keandalan-dan-kualitas-terbaik-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 8px;
+  min-width: 253px;
+  max-width: 100%;
+}
+.hero-title-container-parent,
+.reliability-container {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.reliability-container {
+  background-color: #f9f9f9;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+  box-sizing: border-box;
+  gap: 8px;
+  text-align: left;
+  font-size: 25px;
+  color: #171717;
+}
+.hero-title-container-parent {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 48px;
+}
+.hero-inner-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 16px;
+  box-sizing: border-box;
+  min-width: 488px;
+  max-width: 100%;
+}
+.shape-container-child {
+  position: absolute;
+  top: 0;
+  left: 123px;
+  background-color: #0f7c83;
+  width: 465px;
+  height: 558px;
+}
+.shape-container-item {
+  position: absolute;
+  top: 119px;
+  left: 96px;
+  border-radius: 0 0 232.5px 0;
+  background-color: rgba(15, 124, 131, 0.32);
+  width: 465px;
+  height: 595px;
+  z-index: 1;
+}
+.shape-container-inner {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  border-radius: 0 0 0 1000px;
+  width: 489px;
+  height: 676px;
+  object-fit: cover;
+  z-index: 2;
+}
+.shape-container {
+  height: 716px;
+  width: 582px;
+  position: relative;
+  min-width: 582px;
+  max-width: 100%;
+}
+.hero-container,
+.hero-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.hero-container {
+  flex: 1;
+  align-items: flex-end;
+  gap: 16px;
+}
+.hero-content {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 0 36px 1px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 16px;
+  color: #ffc51e;
+  font-family: "Jeko DEMO";
+}
+.tentang-perusahaan {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.wrapper-line-1-child {
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  transform: scale(1.01);
+}
+.about-us-title,
+.wrapper-line-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.wrapper-line-1 {
+  height: 10.7px;
+  flex: 1;
+  position: relative;
+  min-width: 696px;
+}
+.about-us-title {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 16px;
+}
+.perusahaan-konstruksi-terbaik {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 56px;
+  font-weight: 800;
+  font-family: "Jeko DEMO";
+  color: #171717;
+  display: inline-block;
+  min-height: 80px;
+}
+.about-us-title-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 32px 0 0;
+  box-sizing: border-box;
+  gap: 8px;
+  max-width: 100%;
+}
+.cv-hasil-karya1,
+.frame {
+  position: relative;
+  flex-shrink: 0;
+}
+.cv-hasil-karya1 {
+  width: 522px;
+  line-height: 26px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  min-width: 522px;
+  max-width: 100%;
+}
+.frame {
+  cursor: pointer;
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+}
+.kualitas-bangunan-kuat {
+  flex: 1;
+  position: relative;
+}
+.frame-container {
+  width: 336px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 20px 0 0;
+  box-sizing: border-box;
+  gap: 9px;
+  max-width: 100%;
+}
+.frame1 {
+  cursor: pointer;
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame1,
+.personil-berpengalaman-dan {
+  position: relative;
+}
+.about-detail-items,
+.frame-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 9px;
+}
+.about-detail-items {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  max-width: 100%;
+}
+.frame2 {
+  cursor: pointer;
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.kerja-cepat-dan {
+  flex: 1;
+  position: relative;
+}
+.frame-parent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.frame3 {
+  cursor: pointer;
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tim-bertenaga-ahli {
+  flex: 1;
+  position: relative;
+}
+.frame-parent2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.about-detail-items1,
+.about-details-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.about-detail-items1 {
+  width: 317px;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.about-details-container {
+  width: 677px;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.about-description-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+  color: #4a606b;
+}
+.lihat-detail {
+  height: 23px;
+  flex: 1;
+  position: relative;
+  font-size: 16px;
+  font-weight: 800;
+  font-family: "Jeko DEMO";
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  min-width: 91px;
+}
+.frame-icon3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.detail-button-container {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 15px;
+  background-color: #135155;
+  width: 153px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 8px;
+  white-space: nowrap;
+}
+.detail-button-container:hover {
+  background-color: #38787a;
+}
+.about-us-content,
+.about-us-content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.about-us-content {
+  flex: 1;
+  flex-direction: column;
+  gap: 40px;
+}
+.about-us-content-wrapper {
+  width: 1290px;
+  flex-direction: row;
+  padding: 0 5px 36px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 16px;
+  color: #0f7c83;
+  font-family: Inter;
+}
+.produk-perusahaan {
+  width: 178px;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.wrapper-line-1-item {
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  transform: scale(1.01);
+}
+.wrapper-line-11 {
+  height: 10.7px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  min-width: 688px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 30px 0 0;
+  box-sizing: border-box;
+  gap: 16px;
+  max-width: 102%;
+  flex-shrink: 0;
+}
+.produk-yang-kami {
+  margin: 0;
+  width: 1226px;
+  position: relative;
+  font-size: 56px;
+  font-weight: 800;
+  font-family: "Jeko DEMO";
+  color: #171717;
+  display: inline-block;
+  min-height: 80px;
+  max-width: 100%;
+}
+.product-title-container,
+.produk-ini-merupakan {
+  display: flex;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.product-title-container {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0;
+  gap: 4px;
+}
+.produk-ini-merupakan {
+  width: 897px;
+  height: 36px;
+  position: relative;
+  line-height: 26px;
+  font-weight: 500;
+  color: #4a606b;
+  align-items: center;
+  flex-shrink: 0;
+  padding-right: 20px;
+}
+.product-title-container-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 3px 0 0;
+  box-sizing: border-box;
+  gap: 4px;
+  max-width: 100%;
+}
+.component-7-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.component-7-wrapper {
+  align-self: stretch;
+  height: 198px;
+  border-radius: 16px 16px 0 0;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 28px;
+  box-sizing: border-box;
+}
+.simonro,
+.sistem-manajemen-proyek {
+  margin: 0;
+  position: relative;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+}
+.simonro {
+  width: 136px;
+  height: 46px;
+  font-size: inherit;
+}
+.sistem-manajemen-proyek {
+  align-self: stretch;
+  height: 34px;
+  font-size: 24px;
+  color: #4a606b;
+}
+.showcase-title-items {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  max-width: 100%;
+}
+.component-8,
+.showcase-title-items-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.showcase-title-items-wrapper {
+  align-self: stretch;
+  border-radius: 0 0 16px 16px;
+  background-color: #f8f8f8;
+  flex-direction: row;
+  padding: 22.5px 14px;
+}
+.component-8 {
+  flex: 1;
+  box-shadow: 0 6px 56px rgba(0, 0, 0, 0.04);
+  border-radius: 16px;
+  background-color: #fff;
+  flex-direction: column;
+  padding: 20px 25px;
+  gap: 16px;
+  min-width: 306px;
+}
+.component-7-icon1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.component-7-container {
+  align-self: stretch;
+  height: 198px;
+  border-radius: 16px 16px 0 0;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 28px;
+  box-sizing: border-box;
+}
+.simonro1,
+.sistem-manajemen-proyek1 {
+  margin: 0;
+  position: relative;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+}
+.simonro1 {
+  width: 73px;
+  height: 46px;
+  font-size: inherit;
+  min-width: 73px;
+}
+.sistem-manajemen-proyek1 {
+  align-self: stretch;
+  height: 34px;
+  font-size: 24px;
+  color: #4a606b;
+}
+.simonro-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.component-8-inner,
+.component-81 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.component-8-inner {
+  align-self: stretch;
+  border-radius: 0 0 16px 16px;
+  background-color: #f8f8f8;
+  flex-direction: row;
+  padding: 22.5px 45px;
+}
+.component-81 {
+  flex: 1;
+  box-shadow: 0 6px 56px rgba(0, 0, 0, 0.04);
+  border-radius: 16px;
+  background-color: #fff;
+  flex-direction: column;
+  padding: 20px 25px;
+  box-sizing: border-box;
+  gap: 16px;
+  min-width: 306px;
+  max-width: 100%;
+}
+.component-7-child {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.component-7,
+.component-7-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.component-7 {
+  flex: 1;
+  padding: 0 44px;
+}
+.component-7-frame {
+  height: 198px;
+  border-radius: 16px 16px 0 0;
+  background-color: #f8f8f8;
+  padding: 2.5px 28px;
+  box-sizing: border-box;
+}
+.simonro2,
+.sistem-manajemen-proyek2 {
+  margin: 0;
+  align-self: stretch;
+  height: 46px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+}
+.sistem-manajemen-proyek2 {
+  height: 34px;
+  font-size: 24px;
+  color: #4a606b;
+}
+.simonro-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.component-8-child {
+  align-self: stretch;
+  border-radius: 0 0 16px 16px;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 22.5px 24px;
+}
+.component-82,
+.product-showcase {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.component-82 {
+  flex: 1;
+  box-shadow: 0 6px 56px rgba(0, 0, 0, 0.04);
+  border-radius: 16px;
+  background-color: #fff;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 25px;
+  gap: 16px;
+  min-width: 306px;
+}
+.product-showcase {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 7px 0 0;
+  gap: 15px;
+  text-align: center;
+  font-size: 32px;
+  font-family: "Jeko DEMO";
+}
+.product-content,
+.product-content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.product-content {
+  flex: 1;
+  flex-direction: column;
+  gap: 40px;
+}
+.product-content-wrapper {
+  width: 1267px;
+  flex-direction: row;
+  padding: 0 3px 36px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 16px;
+  color: #0f7c83;
+  font-family: Inter;
+}
+.layanan-bisnis-kami {
+  width: 179px;
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.wrapper-line-1-inner {
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  transform: scale(1.01);
+}
+.business-service-title,
+.wrapper-line-12 {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.wrapper-line-12 {
+  height: 10.7px;
+  flex: 1;
+  position: relative;
+  min-width: 699px;
+  justify-content: center;
+}
+.business-service-title {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  row-gap: 20px;
+}
+.kami-memberikan-layanan {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  min-height: 160px;
+}
+.layanan-yang-kami {
+  height: 36px;
+  width: 877px;
+  position: relative;
+  line-height: 26px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.preview-icon,
+.preview-icon1 {
+  height: 72px;
+  width: 72px;
+  border-radius: 65px;
+  object-fit: contain;
+  min-height: 72px;
+}
+.business-service-description-c,
+.service-preview {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 29px;
+}
+.business-service-description-c {
+  width: 1243px;
+  justify-content: space-between;
+  padding: 0 20px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: 20px;
+  font-size: 16px;
+  color: #4a606b;
+  font-family: Inter;
+}
+.business-service-subtitle-cont,
+.business-service-title-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.business-service-subtitle-cont {
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 56px;
+  color: #171717;
+  font-family: "Jeko DEMO";
+}
+.business-service-title-parent {
+  align-items: flex-end;
+  gap: 40px;
+}
+.component-2-child {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 8px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.component-2 {
+  width: 597px;
+  height: 371px;
+  margin: 0 !important;
+  position: absolute;
+  top: 12px;
+  left: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.perizinan-bangunan {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.component-3,
+.perizinan-bangunan-wrapper {
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.perizinan-bangunan-wrapper {
+  width: 391px;
+  margin: 0 !important;
+  position: absolute;
+  top: 170px;
+  left: 103px;
+  backdrop-filter: blur(20px);
+  background-color: rgba(0, 0, 0, 0.42);
+  flex-direction: row;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.component-3 {
+  height: 395px;
+  width: 623px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 12px 13px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 10px;
+  flex-shrink: 0;
+}
+.component-2-icon {
+  width: calc(100% - 26px);
+  height: 371px;
+  position: absolute;
+  margin: 0 !important;
+  top: 12px;
+  right: 13px;
+  left: 13px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.perizinan-bangunan1 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.component-parent {
+  width: 463px;
+  margin: 0 !important;
+  position: absolute;
+  top: 146px;
+  left: 79px;
+  backdrop-filter: blur(20px);
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.42);
+  flex-direction: row;
+  justify-content: center;
+  padding: 24px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.building-permit-items,
+.component-31,
+.component-parent {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.component-31 {
+  height: 395px;
+  width: 623px;
+  border-radius: 16px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 12px 13px;
+  position: relative;
+  gap: 10px;
+  flex-shrink: 0;
+}
+.building-permit-items {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0;
+  gap: 28px;
+}
+.component-2-icon1 {
+  width: calc(100% - 26px);
+  height: 371px;
+  position: absolute;
+  margin: 0 !important;
+  top: 12px;
+  right: 13px;
+  left: 13px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.perizinan-bangunan2 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.component-32,
+.perizinan-bangunan-container {
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.perizinan-bangunan-container {
+  width: 426px;
+  margin: 0 !important;
+  position: absolute;
+  top: 146px;
+  left: 79px;
+  backdrop-filter: blur(20px);
+  background-color: rgba(0, 0, 0, 0.42);
+  flex-direction: row;
+  justify-content: center;
+  padding: 24px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.component-32 {
+  height: 395px;
+  width: 623px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 12px 13px;
+  position: relative;
+  gap: 10px;
+  flex-shrink: 0;
+}
+.component-2-icon2 {
+  width: calc(100% - 26px);
+  height: 371px;
+  position: absolute;
+  margin: 0 !important;
+  top: 12px;
+  right: 13px;
+  left: 13px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.perizinan-bangunan3 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.perizinan-bangunan-frame {
+  width: 460px;
+  margin: 0 !important;
+  position: absolute;
+  top: 146px;
+  left: 79px;
+  backdrop-filter: blur(20px);
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.42);
+  flex-direction: row;
+  justify-content: center;
+  padding: 24px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.building-permit-items1,
+.component-33,
+.perizinan-bangunan-frame {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.component-33 {
+  height: 395px;
+  width: 623px;
+  border-radius: 16px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 12px 13px;
+  position: relative;
+  gap: 10px;
+  flex-shrink: 0;
+}
+.building-permit-items1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0;
+  gap: 28px;
+}
+.building-permit-items-parent,
+.business-service-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.building-permit-items-parent {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 32px;
+  font-size: 40px;
+  color: #fff;
+  font-family: "Jeko DEMO";
+}
+.business-service-content {
+  flex: 1;
+  align-items: flex-end;
+  gap: 40px;
+}
+.business-service-content-wrapper {
+  width: 1262px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 4px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: 16px;
+  color: #0f7c83;
+  font-family: Inter;
+}
+.nilai-perusahaan {
+  width: 161px;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.line-icon {
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  transform: scale(1.01);
+}
+.wrapper-line-13 {
+  height: 10.7px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  min-width: 695px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.business-value-title-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 4px 0 0;
+  box-sizing: border-box;
+  gap: 16px;
+  min-height: 21px;
+  max-width: 100%;
+}
+.testimoni-client-kami {
+  margin: 0;
+  width: 594px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  min-height: 80px;
+  max-width: 100%;
+}
+.beberapa-review-dari {
+  align-self: stretch;
+  height: 36px;
+  position: relative;
+  line-height: 26px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.testimonial-content-wrapper {
+  width: 556px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 22px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: right;
+  font-size: 16px;
+  color: #4a606b;
+  font-family: Inter;
+}
+.testimonial-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+.review-quote-child {
+  height: 56px;
+  width: 56px;
+  position: relative;
+  object-fit: contain;
+}
+.review-quote {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 1px;
+}
+.cv-hasil-karya2 {
+  margin: 0;
+  width: 549px;
+  position: relative;
+  line-height: 36px;
+  display: inline-block;
+  max-width: 100%;
+}
+.client-info-child {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  border-top: 2px solid rgba(187, 187, 187, 0.07);
+  box-sizing: border-box;
+}
+.adi-saputra,
+.manajer-proyek {
+  position: relative;
+  display: inline-block;
+}
+.adi-saputra {
+  margin: 0;
+  width: 141px;
+  height: 34px;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+}
+.manajer-proyek {
+  font-size: 16px;
+  font-family: Inter;
+  color: #4a606b;
+  min-width: 117px;
+}
+.client-info,
+.review-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.client-info {
+  width: 601px;
+  gap: 7px;
+  max-width: 105%;
+  flex-shrink: 0;
+  color: #135155;
+  font-family: "Jeko DEMO";
+}
+.review-content {
+  width: 613px;
+  background-color: rgba(223, 223, 223, 0.01);
+  border: 4px solid rgba(187, 187, 187, 0.07);
+  box-sizing: border-box;
+  padding: 13px 16px 11px;
+  gap: 17px;
+  min-width: 614px;
+  max-width: 100%;
+}
+.group-icon {
+  height: 56px;
+  width: 56px;
+  position: relative;
+  object-fit: contain;
+}
+.review-content-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 1px;
+}
+.layanan-dan-produk {
+  margin: 0;
+  width: 600px;
+  position: relative;
+  line-height: 36px;
+  display: inline-block;
+  max-width: 105%;
+  flex-shrink: 0;
+}
+.line-div {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  border-top: 2px solid rgba(187, 187, 187, 0.07);
+  box-sizing: border-box;
+}
+.maya-kartika {
+  margin: 0;
+  height: 34px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+}
+.pengembang-perumahan {
+  position: relative;
+  font-size: 16px;
+  font-family: Inter;
+  color: #4a606b;
+}
+.line-parent,
+.review-content1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.line-parent {
+  width: 601px;
+  gap: 7px;
+  max-width: 105%;
+  flex-shrink: 0;
+  color: #135155;
+  font-family: "Jeko DEMO";
+}
+.review-content1 {
+  width: 614px;
+  background-color: rgba(223, 223, 223, 0.01);
+  border: 4px solid rgba(187, 187, 187, 0.07);
+  box-sizing: border-box;
+  padding: 13px 16px 11px;
+  gap: 17px;
+  min-width: 614px;
+  max-width: 100%;
+}
+.review-container,
+.review-wrapper {
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.review-wrapper {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 1px 0 0;
+  gap: 16px;
+  max-width: 100%;
+}
+.review-container {
+  align-self: stretch;
+  padding: 0 3px;
+  font-size: 24px;
+  color: #4a606b;
+  font-family: Inter;
+}
+.business-value-content,
+.business-value-wrapper,
+.client-container,
+.review-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.client-container {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 36px;
+  font-size: 56px;
+  color: #171717;
+  font-family: "Jeko DEMO";
+}
+.business-value-content,
+.business-value-wrapper {
+  box-sizing: border-box;
+}
+.business-value-content {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 1px 0 0;
+  gap: 3.3px;
+}
+.business-value-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 8px 0 7px;
+}
+.preview-icon2,
+.preview-icon3 {
+  height: 72px;
+  width: 72px;
+  border-radius: 65px;
+  object-fit: contain;
+  min-height: 72px;
+}
+.testimonial-image {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.business-value-container,
+.business-value-container-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.business-value-container {
+  flex: 1;
+  flex-direction: column;
+  gap: 52px;
+}
+.business-value-container-wrapper {
+  width: 1274px;
+  flex-direction: row;
+  padding: 0 4px 28px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 16px;
+  color: #0f7c83;
+  font-family: Inter;
+}
+.wrapper-line-1-child1 {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.01);
+}
+.project-call-to-action,
+.wrapper-line-14 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper-line-14 {
+  height: 10.7px;
+  width: 1104px;
+  position: relative;
+  max-width: calc(100% - 0px);
+}
+.project-call-to-action {
+  width: 1282px;
+  height: 0;
+  flex-direction: row;
+  padding: 0 20px;
+  box-sizing: border-box;
+  max-width: 105%;
+  flex-shrink: 0;
+}
+.siapkan-projekmu-untuk {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  min-height: 160px;
+}
+.project-content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  max-width: 100%;
+}
+.cv-hasil-karya3 {
+  width: 877px;
+  height: 36px;
+  position: relative;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #4a606b;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.cv-hasil-karya3,
+.project-wrapper,
+.youremailmailcom {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.project-wrapper {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 8px;
+  box-sizing: border-box;
+  gap: 8px;
+}
+.youremailmailcom {
+  width: 643px;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    rgba(75, 75, 75, 0.3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.submit {
+  position: relative;
+  font-size: 19px;
+  font-weight: 500;
+  font-family: Poppins;
+  color: #eee;
+  text-align: center;
+  display: inline-block;
+  min-width: 69px;
+}
+.primary,
+.submit-button-wrapper {
+  background-color: #135155;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15.5px 32px;
+}
+.submit-button-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #385513;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.email-form,
+.project-container {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.email-form {
+  width: 916px;
+  background-color: #f7f7f7;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 8px 8px 16px;
+  gap: 20px;
+  text-align: left;
+  font-size: 20px;
+  font-family: Poppins;
+}
+.project-container {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 6px;
+  gap: 44px;
+}
+.home2,
+.title {
+  position: relative;
+}
+.title {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  line-height: 33px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.home2 {
+  width: 471px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #4a606b;
+  display: inline-block;
+  max-width: 100%;
+}
+.home-link {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+  max-width: 100%;
+}
+.contact-icon-child {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.contact-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  background-color: #eff2f2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.home3 {
+  width: 430px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 105%;
+}
+.contact-info {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 8px;
+  max-width: 100%;
+}
+.phonecall-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.phonecall-wrapper {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  background-color: #eff2f2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.home4 {
+  position: relative;
+  display: inline-block;
+  min-width: 103px;
+}
+.contact-info1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.contact-link,
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.contact-link {
+  width: 412px;
+  gap: 24px;
+  font-size: 14px;
+  color: #4a606b;
+}
+.footer-links {
+  flex: 1;
+  gap: 19px;
+  min-width: 337px;
+}
+.footer-content-icon,
+.footer-content-icon1 {
+  height: 212px;
+  width: 314px;
+  object-fit: contain;
+}
+.footer-container,
+.footer-wrapper {
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.footer-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 0 6px;
+  gap: 35px;
+}
+.footer-container {
+  flex-direction: column;
+  padding: 16px;
+}
+.footer,
+.footer-container,
+.hasil-karya-all {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.hasil-karya-all {
+  height: 36px;
+  position: relative;
+  font-size: 16px;
+  line-height: 26px;
+  color: #4a606b;
+  text-align: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.footer {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 76px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 24px;
+  color: #135155;
+  font-family: Inter;
+}
+.project-container-parent {
+  width: 1280px;
+  align-items: flex-start;
+  padding: 0 20px 0 0;
+  box-sizing: border-box;
+  gap: 109px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 56px;
+  color: #171717;
+  font-family: "Jeko DEMO";
+}
+.hero-content-parent,
+.home,
+.project-container-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.hero-content-parent {
+  width: 1350px;
+  align-items: flex-start;
+  gap: 84px;
+  max-width: 100%;
+}
+.home {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  align-items: flex-end;
+  padding: 0 0 27px 2px;
+  box-sizing: border-box;
+  gap: 18px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1225px) {
+  .shape-container {
+    flex: 1;
+  }
+  .hero-container {
+    flex-wrap: wrap;
+  }
+  .cv-hasil-karya1 {
+    flex: 1;
+  }
+  .about-description-container,
+  .building-permit-items,
+  .building-permit-items1,
+  .business-service-description-c,
+  .testimonial-wrapper {
+    flex-wrap: wrap;
+  }
+  .review-content,
+  .review-content1 {
+    flex: 1;
+  }
+  .review-wrapper {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .wrapper-line-1-child {
+    min-width: 100%;
+  }
+  .email-form {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .home-inner {
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+  .solusi-konstruksi-untuk {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .hero-title-container {
+    padding-right: 24px;
+    box-sizing: border-box;
+  }
+  .subtract-icon {
+    flex: 1;
+  }
+  .reliability-container {
+    flex-wrap: wrap;
+  }
+  .hero-title-container-parent {
+    gap: 24px;
+  }
+  .hero-inner-container,
+  .shape-container {
+    min-width: 100%;
+  }
+  .perusahaan-konstruksi-terbaik {
+    font-size: 45px;
+  }
+  .cv-hasil-karya1 {
+    min-width: 100%;
+  }
+  .about-details-container {
+    flex-wrap: wrap;
+  }
+  .about-us-content {
+    gap: 20px;
+  }
+  .wrapper-line-1-item {
+    min-width: 100%;
+  }
+  .produk-yang-kami {
+    font-size: 45px;
+  }
+  .simonro,
+  .simonro1,
+  .simonro2 {
+    font-size: 26px;
+  }
+  .product-content {
+    gap: 20px;
+  }
+  .wrapper-line-1-inner {
+    min-width: 100%;
+  }
+  .kami-memberikan-layanan {
+    font-size: 45px;
+  }
+  .business-service-title-parent {
+    gap: 20px;
+  }
+  .building-permit-items-parent {
+    gap: 16px;
+  }
+  .business-service-content {
+    gap: 20px;
+  }
+  .line-icon {
+    min-width: 100%;
+  }
+  .testimoni-client-kami {
+    font-size: 45px;
+  }
+  .review-content,
+  .review-content1 {
+    min-width: 100%;
+  }
+  .client-container {
+    gap: 18px;
+  }
+  .business-value-container {
+    gap: 26px;
+  }
+  .siapkan-projekmu-untuk {
+    font-size: 45px;
+  }
+  .project-content {
+    gap: 16px;
+  }
+  .project-container {
+    gap: 22px;
+  }
+  .home-link {
+    gap: 16px;
+  }
+  .contact-info {
+    flex-wrap: wrap;
+  }
+  .footer-wrapper {
+    gap: 17px;
+  }
+  .footer {
+    gap: 38px;
+  }
+  .project-container-parent {
+    gap: 54px;
+  }
+  .hero-content-parent {
+    gap: 42px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .solusi-konstruksi-untuk {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .keandalan-dan-kualitas-container {
+    font-size: 20px;
+  }
+  .perusahaan-konstruksi-terbaik,
+  .produk-yang-kami {
+    font-size: 34px;
+  }
+  .simonro,
+  .simonro1,
+  .sistem-manajemen-proyek,
+  .sistem-manajemen-proyek1 {
+    font-size: 19px;
+  }
+  .component-7,
+  .component-8-inner {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .simonro2,
+  .sistem-manajemen-proyek2 {
+    font-size: 19px;
+  }
+  .kami-memberikan-layanan,
+  .testimoni-client-kami {
+    font-size: 34px;
+  }
+  .cv-hasil-karya2 {
+    font-size: 19px;
+    line-height: 29px;
+  }
+  .adi-saputra {
+    font-size: 19px;
+  }
+  .layanan-dan-produk {
+    font-size: 19px;
+    line-height: 29px;
+  }
+  .maya-kartika {
+    font-size: 19px;
+  }
+  .testimonial-image {
+    flex-wrap: wrap;
+  }
+  .siapkan-projekmu-untuk {
+    font-size: 34px;
+  }
+  .youremailmailcom {
+    font-size: 16px;
+  }
+  .title {
+    font-size: 19px;
+    line-height: 26px;
+  }
+  .footer-links {
+    min-width: 100%;
+  }
+  .footer {
+    gap: 19px;
+  }
+  .project-container-parent {
+    gap: 27px;
+  }
+  .hero-content-parent {
+    gap: 21px;
+  }
+}
