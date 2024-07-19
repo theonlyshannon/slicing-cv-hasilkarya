@@ -467,7 +467,6 @@
   align-items: flex-end;
   gap: 16px;
 }
-/* hero css end */
 
 .hero-content1 {
   align-self: stretch;
@@ -479,11 +478,15 @@
   color: #ffc51e;
   font-family: "Jeko DEMO";
 }
+/* hero css end */
+
+/* about company start */
 .tentang-perusahaan2 {
   position: relative;
   line-height: 20px;
   font-weight: 500;
 }
+
 .wrapper-line-1-child6 {
   height: 100%;
   flex: 1;
@@ -522,7 +525,7 @@
   position: relative;
   font-size: 56px;
   font-weight: 800;
-  font-family: "Jeko DEMO";
+  font-family: "Poppins";
   color: #171717;
   display: inline-block;
   min-height: 80px;
@@ -677,7 +680,7 @@
   position: relative;
   font-size: 16px;
   font-weight: 800;
-  font-family: "Jeko DEMO";
+  font-family: "Poppins";
   color: #fff;
   text-align: center;
   display: inline-block;
@@ -730,6 +733,9 @@
   color: #0f7c83;
   font-family: Inter;
 }
+/* about company css end */
+
+/* product company css start */
 .produk-perusahaan2 {
   width: 178px;
   position: relative;
@@ -779,7 +785,7 @@
   position: relative;
   font-size: 56px;
   font-weight: 800;
-  font-family: "Jeko DEMO";
+  font-family: "Poppins";
   color: #171717;
   display: inline-block;
   min-height: 80px;
@@ -846,8 +852,8 @@
 .sistem-manajemen-proyek6 {
   margin: 0;
   position: relative;
-  font-weight: 800;
-  font-family: inherit;
+  font-weight: 600;
+  font-family: "Poppins";
   display: inline-block;
 }
 .simonro6 {
@@ -855,12 +861,14 @@
   height: 46px;
   font-size: inherit;
 }
+
 .sistem-manajemen-proyek6 {
   align-self: stretch;
   height: 34px;
-  font-size: 24px;
+  font-size: 20px;
   color: #4a606b;
 }
+
 .showcase-title-items {
   flex: 1;
   display: flex;
@@ -870,6 +878,7 @@
   gap: 10px;
   max-width: 100%;
 }
+
 .component-86,
 .showcase-title-items-wrapper {
   display: flex;
@@ -878,6 +887,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .showcase-title-items-wrapper {
   align-self: stretch;
   border-radius: 0 0 16px 16px;
@@ -904,6 +914,7 @@
   max-height: 100%;
   object-fit: cover;
 }
+
 .component-7-wrapper4 {
   align-self: stretch;
   height: 198px;
@@ -921,7 +932,7 @@
   margin: 0;
   position: relative;
   font-weight: 800;
-  font-family: inherit;
+  font-family: "Poppins";
   display: inline-block;
 }
 .simonro7 {
@@ -933,7 +944,7 @@
 .sistem-manajemen-proyek7 {
   align-self: stretch;
   height: 34px;
-  font-size: 24px;
+  font-size: 20px;
   color: #4a606b;
 }
 .simonro-parent3 {
@@ -1002,14 +1013,15 @@
   align-self: stretch;
   height: 46px;
   position: relative;
-  font-size: inherit;
+  font-size: 30px;
   font-weight: 800;
-  font-family: inherit;
+  font-family: "Poppins";
   display: inline-block;
 }
+
 .sistem-manajemen-proyek8 {
   height: 34px;
-  font-size: 24px;
+  font-size: 20px;
   color: #4a606b;
 }
 .simonro-parent4 {
@@ -1082,6 +1094,9 @@
   color: #0f7c83;
   font-family: Inter;
 }
+/* company product css end */
+
+/* company service css start */
 .layanan-bisnis-kami2 {
   width: 179px;
   position: relative;
@@ -1128,11 +1143,11 @@
   margin: 0;
   align-self: stretch;
   position: relative;
-  font-size: inherit;
+  font-size: 40px;
   font-weight: 800;
-  font-family: inherit;
+  font-family: poppins;
   display: inline-block;
-  min-height: 160px;
+  min-height: 120px;
 }
 .layanan-yang-kami2 {
   height: 36px;
@@ -1161,6 +1176,7 @@
   justify-content: flex-start;
   gap: 29px;
 }
+
 .business-service-description-c {
   width: 1243px;
   justify-content: space-between;
@@ -1180,12 +1196,13 @@
   justify-content: flex-start;
   max-width: 100%;
 }
+
 .business-service-subtitle-cont {
   align-items: flex-start;
   gap: 8px;
   font-size: 56px;
   color: #171717;
-  font-family: "Jeko DEMO";
+  font-family: "Poppins";
 }
 .business-service-title-parent {
   align-items: flex-end;
@@ -1220,11 +1237,12 @@
   position: relative;
   font-size: inherit;
   line-height: 32px;
-  font-weight: 800;
-  font-family: inherit;
+  font-weight: normal;
+  font-family: poppins;
   display: inline-block;
   max-width: 100%;
 }
+
 .component-38,
 .perizinan-bangunan-wrapper4 {
   border-radius: 16px;
@@ -1232,19 +1250,24 @@
   align-items: center;
   max-width: 100%;
 }
+
 .perizinan-bangunan-wrapper4 {
-  width: 391px;
+  width: 439px;
   margin: 0 !important;
   position: absolute;
-  top: 170px;
-  left: 103px;
+  top: 146px;
+  
+  left: 79px;
   backdrop-filter: blur(20px);
+  border-radius: 16px;
   background-color: rgba(0, 0, 0, 0.42);
   flex-direction: row;
   justify-content: center;
+  padding: 24px;
   white-space: nowrap;
   z-index: 1;
 }
+
 .component-38 {
   height: 395px;
   width: 623px;
@@ -1275,8 +1298,8 @@
   position: relative;
   font-size: inherit;
   line-height: 32px;
-  font-weight: 800;
-  font-family: inherit;
+  font-weight: normal;
+  font-family: poppins;
   display: inline-block;
   max-width: 100%;
 }
@@ -1295,6 +1318,7 @@
   white-space: nowrap;
   z-index: 1;
 }
+
 .building-permit-items,
 .component-39,
 .component-parent {
@@ -1340,8 +1364,8 @@
   position: relative;
   font-size: inherit;
   line-height: 32px;
-  font-weight: 800;
-  font-family: inherit;
+  font-weight: normal;
+  font-family: poppins;
   display: inline-block;
   max-width: 100%;
 }
@@ -1396,8 +1420,8 @@
   position: relative;
   font-size: inherit;
   line-height: 32px;
-  font-weight: 800;
-  font-family: inherit;
+  font-weight: normal;
+  font-family: poppins;
   display: inline-block;
   max-width: 100%;
 }
@@ -1455,7 +1479,7 @@
   gap: 32px;
   font-size: 40px;
   color: #fff;
-  font-family: "Jeko DEMO";
+  font-family: "poppins";
 }
 .business-service-content {
   flex: 1;
@@ -1474,8 +1498,10 @@
   text-align: left;
   font-size: 16px;
   color: #0f7c83;
-  font-family: Inter;
+  font-family: poppins;
 }
+
+/* Rating company css start */
 .nilai-perusahaan2 {
   width: 161px;
   position: relative;
@@ -1523,14 +1549,15 @@
   margin: 0;
   width: 594px;
   position: relative;
-  font-size: inherit;
+  font-size: 40px ;
   font-weight: 800;
-  font-family: inherit;
+  font-family: poppins;
   display: inline-block;
   flex-shrink: 0;
   min-height: 80px;
   max-width: 100%;
 }
+
 .beberapa-review-dari2 {
   align-self: stretch;
   height: 36px;
@@ -1541,6 +1568,7 @@
   align-items: center;
   flex-shrink: 0;
 }
+
 .testimonial-content-wrapper {
   width: 556px;
   display: flex;
@@ -1553,7 +1581,7 @@
   text-align: right;
   font-size: 16px;
   color: #4a606b;
-  font-family: Inter;
+  font-family: poppins;
 }
 .testimonial-wrapper {
   align-self: stretch;
@@ -1601,9 +1629,9 @@
   margin: 0;
   width: 141px;
   height: 34px;
-  font-size: inherit;
-  font-weight: 800;
-  font-family: inherit;
+  font-size: 24px;
+  font-weight: normal;
+  font-family: poppins;
 }
 .manajer-proyek2 {
   font-size: 16px;
@@ -1611,6 +1639,7 @@
   color: #4a606b;
   min-width: 117px;
 }
+
 .client-info,
 .review-content {
   display: flex;
@@ -1624,7 +1653,7 @@
   max-width: 105%;
   flex-shrink: 0;
   color: #135155;
-  font-family: "Jeko DEMO";
+  font-family: "poppins";
 }
 .review-content {
   width: 613px;
@@ -1669,9 +1698,9 @@
   margin: 0;
   height: 34px;
   position: relative;
-  font-size: inherit;
+  font-size: 24px;
   font-weight: 800;
-  font-family: inherit;
+  font-family: poppins;
   display: inline-block;
 }
 .pengembang-perumahan2 {
@@ -1805,6 +1834,8 @@
   top: 0;
   transform: scale(1.01);
 }
+/* rating company end */
+
 .project-call-to-action,
 .wrapper-line-113 {
   display: flex;
@@ -1830,9 +1861,9 @@
   margin: 0;
   align-self: stretch;
   position: relative;
-  font-size: inherit;
+  font-size: 56px;
   font-weight: 800;
-  font-family: inherit;
+  font-family: poppins;
   display: inline-block;
   min-height: 160px;
 }
